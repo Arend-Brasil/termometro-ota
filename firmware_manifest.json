@@ -1,6 +1,6 @@
 {
-  "version": "2026.06.06.02",
+  "version": "2026.06.06.03",
   "firmware_url": "https://raw.githubusercontent.com/Arend-Brasil/termometro-ota/main/firmware.bin",
-  "sha256": "b6c8b4d4d78f6982ad5bc509b4febd4df55795e258ca70aa354aeee84ee7cf56",
-  "notes": "OTA agora usa repo publico separado (termometro-ota); codigo-fonte no repo privado"
+  "sha256": "1bc32c6482d5d7829d3d71f2fe2019d5290fc47de74afce7b76c4c77b703d6db",
+  "notes": "Tela principal sem mini-grafico; nome do dispositivo usa device_id como padrao; scroll mobile no grafico corrigido; botao atualizar na web; debug ESP32-C6 configurado"
 }
