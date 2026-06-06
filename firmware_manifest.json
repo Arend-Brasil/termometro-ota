@@ -1,6 +1,6 @@
 {
-  "version": "2026.06.06.04",
+  "version": "2026.06.06.05",
   "firmware_url": "https://raw.githubusercontent.com/Arend-Brasil/termometro-ota/main/firmware.bin",
-  "sha256": "1fa3451ddee1a6b852f7870f8b4e41e030af6d78a79cb53fc5b3e415345c7e43",
-  "notes": "Botao Atualizar na web corrigido (caracter incompativel substituido por texto)"
+  "sha256": "a1c2752934d764490ffca34458cdbfd254ec5bcc855b7ad87b668ec342c39d71",
+  "notes": "Botao Atualizar corrigido: link HTML em vez de button, sempre visivel"
 }
