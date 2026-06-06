@@ -1,6 +1,6 @@
 {
-  "version": "2026.06.06.01",
+  "version": "2026.06.06.02",
   "firmware_url": "https://raw.githubusercontent.com/Arend-Brasil/termometro-ota/main/firmware.bin",
-  "sha256": "332364c383f110ce5c83451a182b90791b86f4a9f73862c96b736ed5401ce096",
-  "notes": "CLOUD_HTTP_TIMEOUT aumentado de 5s para 10s para tolerar cold start do Google Apps Script"
+  "sha256": "b6c8b4d4d78f6982ad5bc509b4febd4df55795e258ca70aa354aeee84ee7cf56",
+  "notes": "OTA agora usa repo publico separado (termometro-ota); codigo-fonte no repo privado"
 }
