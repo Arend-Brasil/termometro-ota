@@ -1,6 +1,10 @@
 {
-  "version": "2026.06.06.05",
-  "firmware_url": "https://raw.githubusercontent.com/Arend-Brasil/termometro-ota/main/firmware.bin",
-  "sha256": "a1c2752934d764490ffca34458cdbfd254ec5bcc855b7ad87b668ec342c39d71",
-  "notes": "Botao Atualizar corrigido: link HTML em vez de button, sempre visivel"
+  "modelo1_c6_version": "2026.07.19.01",
+  "modelo1_c6_firmware_url": "https://raw.githubusercontent.com/Arend-Brasil/termometro-ota/main/modelo1-c6/firmware.bin",
+  "modelo1_c6_sha256": "a5c972f8f7d4d66a2c74e4025da0f781e459568f61c20eb59ed63b0c9b76f500",
+  "modelo1_c6_notes": "Corte para a plataforma multi-cliente propria (termometro.remoacc.com.br) no lugar do Google Apps Script. Adiciona campo modelo no payload de telemetria.",
+  "modelo2_s3_version": "2026.07.19.01",
+  "modelo2_s3_firmware_url": "https://raw.githubusercontent.com/Arend-Brasil/termometro-ota/main/modelo2-s3/firmware.bin",
+  "modelo2_s3_sha256": "1783c13b7fbbc646f2ffc51d7a322e019d406635a56aa6872065e1d01906ebd6",
+  "modelo2_s3_notes": "Corte para a plataforma multi-cliente propria (termometro.remoacc.com.br) no lugar do Google Apps Script. Adiciona campo modelo no payload de telemetria."
 }
