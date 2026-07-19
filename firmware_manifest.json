@@ -1,10 +1,10 @@
 {
-  "modelo1_c6_version": "2026.07.19.02",
+  "modelo1_c6_version": "2026.07.19.03",
   "modelo1_c6_firmware_url": "https://raw.githubusercontent.com/Arend-Brasil/termometro-ota/main/modelo1-c6/firmware.bin",
-  "modelo1_c6_sha256": "57cfd39310a257da3df6888baf383a98d8bc1c64a9601b47589cea9287c02286",
-  "modelo1_c6_notes": "Melhorias de tela: limites e codigo na tela WIFI, aba ativa colorida no menu, remove icone USB (nao confiavel), contato atualizado.",
-  "modelo2_s3_version": "2026.07.19.02",
+  "modelo1_c6_sha256": "cdfe0fa2d86a73fbe77b1db1c2b6bc6a3ee4a4717d013db2baef7433079b091c",
+  "modelo1_c6_notes": "Logo oficial em alta resolucao (downscale de qualidade pro C6).",
+  "modelo2_s3_version": "2026.07.19.03",
   "modelo2_s3_firmware_url": "https://raw.githubusercontent.com/Arend-Brasil/termometro-ota/main/modelo2-s3/firmware.bin",
-  "modelo2_s3_sha256": "16e29c7c44a5dcd9a74f5109d48dbe916a506ac9516328994932a2c4e634ba2f",
-  "modelo2_s3_notes": "Recuperacao por toque, tela de grafico redesenhada, logo maior na introducao, brilho de dimming ajustado, contato atualizado."
+  "modelo2_s3_sha256": "d47c3d8858d4e95744b86746931c1bcfd1ff1348ff32af726772075fdd7c29cb",
+  "modelo2_s3_notes": "Logo oficial em resolucao nativa na introducao (sem pixelizacao) — remove escala manual no aparelho."
 }
