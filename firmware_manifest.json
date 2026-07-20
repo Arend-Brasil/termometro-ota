@@ -1,10 +1,10 @@
 {
-  "modelo1_c6_version": "2026.07.19.03",
+  "modelo1_c6_version": "2026.07.20.01",
   "modelo1_c6_firmware_url": "https://raw.githubusercontent.com/Arend-Brasil/termometro-ota/main/modelo1-c6/firmware.bin",
-  "modelo1_c6_sha256": "cdfe0fa2d86a73fbe77b1db1c2b6bc6a3ee4a4717d013db2baef7433079b091c",
-  "modelo1_c6_notes": "Logo oficial em alta resolucao (downscale de qualidade pro C6).",
-  "modelo2_s3_version": "2026.07.19.03",
+  "modelo1_c6_sha256": "4ec8b82da2391ddbccceccc16575d92b7a35b36cac8debc551f4fa5cd003f7d9",
+  "modelo1_c6_notes": "Simbolo de grau corrigido (bloco solido em vez de circulo, mais confiavel no driver).",
+  "modelo2_s3_version": "2026.07.20.01",
   "modelo2_s3_firmware_url": "https://raw.githubusercontent.com/Arend-Brasil/termometro-ota/main/modelo2-s3/firmware.bin",
-  "modelo2_s3_sha256": "d47c3d8858d4e95744b86746931c1bcfd1ff1348ff32af726772075fdd7c29cb",
-  "modelo2_s3_notes": "Logo oficial em resolucao nativa na introducao (sem pixelizacao) — remove escala manual no aparelho."
+  "modelo2_s3_sha256": "e92caa4c4cdda02070bc2308490cab9f1a5b88b433104eb457d4c52f4810ce18",
+  "modelo2_s3_notes": "Botao PWR desliga o aparelho (aperto longo); corrigido travamento do touch; simbolo de grau visivel em todas as telas."
 }
