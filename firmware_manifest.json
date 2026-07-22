@@ -1,10 +1,10 @@
 {
-  "modelo1_c6_version": "2026.07.21.01",
+  "modelo1_c6_version": "2026.07.22.01",
   "modelo1_c6_firmware_url": "https://raw.githubusercontent.com/Arend-Brasil/termometro-ota/main/modelo1-c6/firmware.bin",
-  "modelo1_c6_sha256": "49e4255ff6c76a5468a3d7001ab1249a50620595726ec69c8177583bef1543f5",
-  "modelo1_c6_notes": "Corrige configuracao de Wi-Fi pelo AP: tela de feedback ao salvar, radio nao disputa mais com o AP durante a tentativa. Testado em hardware real.",
-  "modelo2_s3_version": "2026.07.21.01",
+  "modelo1_c6_sha256": "05e28e79197db26f4dcbea52e121e8199a6b62c135a57d74bc6fd0ed84326b48",
+  "modelo1_c6_notes": "Mesma correcao de Wi-Fi da 2026.07.21.01 (agora oficial). Log de particao/versao ativa no boot pra diagnostico futuro.",
+  "modelo2_s3_version": "2026.07.22.01",
   "modelo2_s3_firmware_url": "https://raw.githubusercontent.com/Arend-Brasil/termometro-ota/main/modelo2-s3/firmware.bin",
-  "modelo2_s3_sha256": "4802141058ec1b3d276f4ba55e7c99b32bf1da55664f13da592ca73de9a82f39",
-  "modelo2_s3_notes": "Mesmas correcoes de Wi-Fi do modelo 1 (codigo compartilhado) — compilado ok, mas ainda NAO testado em hardware real neste modelo."
+  "modelo2_s3_sha256": "93824c9f6bd6ab9add3a69290992d05e91c54dd2875656f0a7c06dfa1f7b6527",
+  "modelo2_s3_notes": "Botao OTA reposicionado (estava colidindo com a zona GRAF do menu inferior), testado em hardware real. Correcoes de Wi-Fi (radio/tela de feedback) sao codigo compartilhado com o modelo 1 mas ainda nao testadas fisicamente neste modelo."
 }
