@@ -1,10 +1,10 @@
 {
-  "modelo1_c6_version": "2026.07.22.01",
+  "modelo1_c6_version": "2026.07.22.02",
   "modelo1_c6_firmware_url": "https://raw.githubusercontent.com/Arend-Brasil/termometro-ota/main/modelo1-c6/firmware.bin",
-  "modelo1_c6_sha256": "05e28e79197db26f4dcbea52e121e8199a6b62c135a57d74bc6fd0ed84326b48",
-  "modelo1_c6_notes": "Mesma correcao de Wi-Fi da 2026.07.21.01 (agora oficial). Log de particao/versao ativa no boot pra diagnostico futuro.",
-  "modelo2_s3_version": "2026.07.22.01",
+  "modelo1_c6_sha256": "76dc18bd66da0cdb724d3915358daeebb9cb23e8b1568f2dcad5dbdd6f36e6fe",
+  "modelo1_c6_notes": "Economia de bateria: apaga a tela por completo apos 10 min sem alimentacao externa (a luz de fundo e o maior consumidor de corrente), religa sozinha quando a energia volta.",
+  "modelo2_s3_version": "2026.07.22.02",
   "modelo2_s3_firmware_url": "https://raw.githubusercontent.com/Arend-Brasil/termometro-ota/main/modelo2-s3/firmware.bin",
-  "modelo2_s3_sha256": "93824c9f6bd6ab9add3a69290992d05e91c54dd2875656f0a7c06dfa1f7b6527",
-  "modelo2_s3_notes": "Botao OTA reposicionado (estava colidindo com a zona GRAF do menu inferior), testado em hardware real. Correcoes de Wi-Fi (radio/tela de feedback) sao codigo compartilhado com o modelo 1 mas ainda nao testadas fisicamente neste modelo."
+  "modelo2_s3_sha256": "a0e771d1a649528894c232d4ccb53f4977faa416e7f92af2b892b1287f60a25d",
+  "modelo2_s3_notes": "Mesma economia de bateria do modelo 1 (codigo compartilhado) — apaga a tela apos 10 min sem alimentacao externa, religa sozinha quando a energia volta."
 }
