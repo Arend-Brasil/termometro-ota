@@ -1,10 +1,10 @@
 {
-  "modelo1_c6_version": "2026.07.22.02",
+  "modelo1_c6_version": "2026.07.22.03",
   "modelo1_c6_firmware_url": "https://raw.githubusercontent.com/Arend-Brasil/termometro-ota/main/modelo1-c6/firmware.bin",
-  "modelo1_c6_sha256": "76dc18bd66da0cdb724d3915358daeebb9cb23e8b1568f2dcad5dbdd6f36e6fe",
-  "modelo1_c6_notes": "Economia de bateria: apaga a tela por completo apos 10 min sem alimentacao externa (a luz de fundo e o maior consumidor de corrente), religa sozinha quando a energia volta.",
-  "modelo2_s3_version": "2026.07.22.02",
+  "modelo1_c6_sha256": "cf0d80d817da15362634660e471d77b6fba99c34bbbfef003076fd399a75c935",
+  "modelo1_c6_notes": "Corrige a economia de bateria (2026.07.22.02) que nao funcionava no C6: flag mestra BATTERY_MODE_ENABLED estava desligada, fazendo o firmware sempre achar que tinha energia externa mesmo sem USB.",
+  "modelo2_s3_version": "2026.07.22.03",
   "modelo2_s3_firmware_url": "https://raw.githubusercontent.com/Arend-Brasil/termometro-ota/main/modelo2-s3/firmware.bin",
-  "modelo2_s3_sha256": "a0e771d1a649528894c232d4ccb53f4977faa416e7f92af2b892b1287f60a25d",
-  "modelo2_s3_notes": "Mesma economia de bateria do modelo 1 (codigo compartilhado) — apaga a tela apos 10 min sem alimentacao externa, religa sozinha quando a energia volta."
+  "modelo2_s3_sha256": "c1b93674db6231027d1bfe1d5c656498bb16f507f4e11bbdbec54a9fbf6e0ef0",
+  "modelo2_s3_notes": "Sem mudanca funcional no S3 (a correcao era so do caminho de deteccao de energia do C6) — rebuild pra manter a versao em sincronia entre os dois modelos."
 }
